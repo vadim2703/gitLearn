@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:700');
+
+
+html,body,header, #intro {
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+#intro {
+  position: relative;
+  background: url("../img/main-3-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 4rem;
+}
+.top-nav-collapse {
+  background-color: #31536c;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #31536c;
+  }
+}
+#intro p {
+  padding-top: 10rem;
+  font-size: 20px;
+}
+@media (max-width: 768px){
+  #intro {
+    background: url("../img/main-3-1.jpg");
+    background-position: center;
+    max-width: 100% !important;
+    height: 100%;
+
+  }
+  #intro p {
+    padding-top: 10rem;
+    font-size: 15px;
+  }
+  #contact (max-width: 768px){
+    font-size: 5px;
+  }
+}
+#about img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.7)));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));
+
+}
+
+main {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+#portfolio {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+#contact {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.btn {
+  font-size: 13px;
+}
+#portfolio .row {
+  padding-top: 1rem;
+}
+
+#contact p {
+  font-size: 20px;
+}
+footer {
+  background-color: #31536c;
+}
+#galery {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+#plus {
+  padding-top: 4rem;
+}
+#about {
+  padding-bottom: 4rem;
+}
+#forma {
+  padding-top: 4rem;
+}
+#erconts {
+  display: none;
+}
